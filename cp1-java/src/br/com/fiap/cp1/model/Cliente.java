@@ -13,7 +13,6 @@ public class Cliente {
 
 
 
-
     public String getNome() {
         return nome;
     }
@@ -76,5 +75,14 @@ public class Cliente {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+
+    public Veiculo getVeiculoLocado() {
+        return veiculoLocado;
+    }
+
+    public void setVeiculoLocado(Veiculo veiculoLocado) {
+        this.veiculoLocado = veiculoLocado;
+
     }
 }
