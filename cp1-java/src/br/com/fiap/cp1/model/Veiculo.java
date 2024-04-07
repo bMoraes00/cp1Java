@@ -29,6 +29,10 @@ public class Veiculo {
         this.alugado = alugado;
     }
 
+    public Veiculo() {
+
+    }
+
     public String getMarca() {
         return marca;
     }
